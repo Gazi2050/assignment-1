@@ -10,8 +10,7 @@ header {
     align-items: center;
     justify-content: center;
     padding: 2% 5% 0% 10%;
-    margin-bottom: 10%;
-    background-color: rgb(223, 183, 183);
+    background-color: rgb(233, 205, 205);
 }
 
 
@@ -37,4 +36,23 @@ header {
 
 .banner {
     width: 70%;
+}
+
+.hot-deal {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(229, 84, 115, 0.05);
+    padding: 15% 8%;
+
+
+}
+
+.hot-deal-text {
+    padding: auto;
+    text-align: center;
+}
+
+.text {
+    color: rgb(250, 85, 20);
 }

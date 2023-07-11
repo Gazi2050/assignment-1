@@ -2,4 +2,39 @@
     font-family: 'Cabin', sans-serif;
     font-family: 'Sono', sans-serif;
     font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2% 5% 0% 10%;
+    margin-bottom: 10%;
+    background-color: rgb(223, 183, 183);
+}
+
+
+.header-text {
+    padding: auto;
+}
+
+
+.header-btn {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(235, 69, 102);
+    padding: 8px 19px;
+    margin: 2% 0%;
+    border-radius: 5px;
+    font-size: small;
+    font-weight: 600;
+}
+
+.header-banner {
+    margin: -0.5%
+}
+
+.banner {
+    width: 70%;
 }

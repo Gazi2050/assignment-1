@@ -6,11 +6,23 @@
     margin: 0;
 }
 
+h1 {
+    font-size: 200%;
+    font-weight: 700;
+}
+
+p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: normal;
+    font-weight: 400;
+
+}
+
 .btn {
     text-decoration: none;
     color: white;
     background-color: rgb(235, 69, 102);
-    padding: 8px 19px;
+    padding: 10px 19px;
     margin: 2% 0%;
     border-radius: 5px;
     font-size: small;
@@ -49,7 +61,7 @@ header {
     align-items: center;
     justify-content: space-evenly;
     background-color: rgba(229, 84, 115, 0.05);
-    padding: 10% 8%;
+    padding: 9% 6%;
 
 
 }
@@ -67,7 +79,7 @@ header {
 
 /* Instagram start  */
 .Instagram {
-    padding: 8%;
+    padding: 5%;
 }
 
 .Instagram-title {
@@ -87,3 +99,34 @@ header {
 }
 
 /* Instagram end  */
+
+/* Subscribe start */
+.Subscribe {
+    background-image: url('Flower Asset/Rectangle 9.png');
+    background-repeat: no-repeat;
+    padding: 130px;
+    border-radius: 8px;
+    margin: 1% 16%;
+}
+
+.Subscribe-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.Subscribe-ber {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ber {
+    width: 500px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.831);
+    margin-right: 7px;
+}
+
+/* Subscribe end */

@@ -1,3 +1,4 @@
+/* common style start*/
 * {
     font-family: 'Cabin', sans-serif;
     font-family: 'Sono', sans-serif;
@@ -5,6 +6,20 @@
     margin: 0;
 }
 
+.btn {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(235, 69, 102);
+    padding: 8px 19px;
+    margin: 2% 0%;
+    border-radius: 5px;
+    font-size: small;
+    font-weight: 600;
+}
+
+/* common style end*/
+
+/* header start */
 header {
     display: flex;
     align-items: center;
@@ -18,18 +33,6 @@ header {
     padding: auto;
 }
 
-
-.header-btn {
-    text-decoration: none;
-    color: white;
-    background-color: rgb(235, 69, 102);
-    padding: 8px 19px;
-    margin: 2% 0%;
-    border-radius: 5px;
-    font-size: small;
-    font-weight: 600;
-}
-
 .header-banner {
     margin: -0.5%
 }
@@ -38,12 +41,15 @@ header {
     width: 70%;
 }
 
+/* header end */
+
+/* hot-deal start */
 .hot-deal {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     background-color: rgba(229, 84, 115, 0.05);
-    padding: 15% 8%;
+    padding: 10% 8%;
 
 
 }
@@ -56,3 +62,28 @@ header {
 .text {
     color: rgb(250, 85, 20);
 }
+
+/* hot-deal end */
+
+/* Instagram start  */
+.Instagram {
+    padding: 8%;
+}
+
+.Instagram-title {
+    text-align: center;
+}
+
+.Instagram-image {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5% 20%;
+}
+
+.image {
+    margin-right: 20px;
+    width: 200px;
+}
+
+/* Instagram end  */

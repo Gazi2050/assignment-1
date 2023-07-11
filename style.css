@@ -55,6 +55,54 @@ header {
 
 /* header end */
 
+/* Featured start */
+.Featured {
+    text-align: center;
+    padding: 8%;
+}
+
+.Featured-pic {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5% 20%;
+}
+
+.pic1 {
+    margin-right: 20px;
+    width: 200px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(167, 33, 98, 0.15);
+    padding: 30px;
+    padding-bottom: 0;
+}
+
+.pic2 {
+    margin-right: 20px;
+    width: 200px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(5, 151, 160, 0.15);
+    padding: 20px;
+    padding-top: 110px;
+    padding-bottom: 0;
+}
+
+.pic3 {
+    margin-right: 20px;
+    width: 200px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(71, 125, 17, 0.15);
+    padding: 10px;
+    padding-bottom: 0;
+}
+
+.pic-text {
+    text-decoration: underline;
+    color: black;
+}
+
+/* Featured end */
+
 /* hot-deal start */
 .hot-deal {
     display: flex;
@@ -136,6 +184,7 @@ footer {
     background-color: black;
     text-align: center;
     padding: 5%;
+    margin-top: 8%;
 }
 
 .footer-title {

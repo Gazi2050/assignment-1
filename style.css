@@ -36,7 +36,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2% 5% 0% 10%;
+    padding: 5% 5% 0% 10%;
     background-color: rgb(233, 205, 205);
 }
 
@@ -61,7 +61,7 @@ header {
     align-items: center;
     justify-content: space-evenly;
     background-color: rgba(229, 84, 115, 0.05);
-    padding: 9% 6%;
+    padding: 7%;
 
 
 }
@@ -130,3 +130,25 @@ header {
 }
 
 /* Subscribe end */
+
+/* footer start */
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 5%;
+}
+
+.footer-title {
+    color: #E55473;
+}
+
+.footer-text {
+    color: white;
+    margin-bottom: 3%;
+}
+
+.rights {
+    color: gray;
+}
+
+/* footer end */
